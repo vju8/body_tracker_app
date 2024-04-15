@@ -6,6 +6,10 @@ Upon running the application, the GUI interface will appear. Input the required 
 
 The theme of the GUI app is adjustable to 'Light' and 'Dark'.
 
+Inspiration, formulas and measures for this applied project with learning purpose taken from: 
+- https://www.bmi-calculator.net/ 
+- https://www.calculator.net/body-fat-calculator.html
+
 ## Features
 
 - Calculate Basal Metabolic Rate (BMR)
