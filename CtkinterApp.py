@@ -426,7 +426,7 @@ class Ctkinter_App():
                                                         text_color=("black", "white"), 
                                                         font = ("Helvetica", 30, "bold"))
             self.result = customtkinter.CTkLabel(self.output_frame, 
-                                                 text=f"BMR: {math.ceil(human_test.bmr)}\nDaily Caloric Need for current Activity Level: {math.ceil(human_test.daily_caloric_need)}", 
+                                                 text=f"BMR: {math.ceil(human_test.bmr)} kcal/day\nDaily Caloric Need for current Activity Level: {math.ceil(human_test.daily_caloric_need)} kcal/day", 
                                                  fg_color="transparent", 
                                                  font = ("Helvetica", 18),
                                                  text_color=("black", "white"))
@@ -472,7 +472,7 @@ class Ctkinter_App():
                                                         text_color=("black", "white"), 
                                                         font = ("Helvetica", 30, "bold"))
             self.result = customtkinter.CTkLabel(self.output_frame, 
-                                                 text=f"BMI: {human_test.bmi}\nBMI Classification: {human_test.bmi_classification}", 
+                                                 text=f"BMI: {human_test.bmi} kg/m²\nBMI Classification: {human_test.bmi_classification}", 
                                                  fg_color="transparent", 
                                                  text_color=("black", "white"), 
                                                  font = ("Helvetica", 18))
